@@ -1,5 +1,6 @@
-from parameterized import parameterized
 import unittest
+
+from parameterized import parameterized
 
 
 def is_leap_year(year):
