@@ -7,7 +7,7 @@ def is_leap_year(year):
     """
     Determine if a given year is a Leap Year
     :param year: number
-    :return: boolean
+    :return: True if the given year is a leap year, otherwise False
     """
     if (year % 400 == 0) or \
             (year % 4 == 0 and year % 100 != 0):
